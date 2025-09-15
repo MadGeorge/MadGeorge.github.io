@@ -6,13 +6,49 @@
     <meta name="apple-touch-fullscreen" content="yes">
     <meta id="extViewportMeta" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Links test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 10px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center; /* center text inside */
+        }
+        li {
+            margin: 8px 0;
+            padding: 10px
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+            padding: 10px;
+            word-break: break-word;
+            overflow-wrap: anywhere;
+            white-space: normal;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
-<body style="margin: 0 auto; padding: 0;">
-    <ul>
-        <li><a href="https://southeasternconference.shar.estori.es/go/517afa00-a905-15ca-c205-3a168a701d30/6a96dc0b-51ea-06b7-ae57-3a169b94fdbe">https://southeasternconference.shar.estori.es/go/517afa</a></li>
-        <li><a href="southeasternconferencestories://open/517afa00-a905-15ca-c205-3a168a701d30/6a96dc0b-51ea-06b7-ae57-3a169b94fdbe">southeasternconferencestories://open/517</a></li>
-        <li><a href="wmt-sec://settings">wmt-sec://settings</a></li>
-    </ul>
+<body>
+<ul>
+    <li>
+        <a href="https://southeasternconference.shar.estori.es/go/517afa00-a905-15ca-c205-3a168a701d30/6a96dc0b-51ea-06b7-ae57-3a169b94fdbe"><b>https://southeasternconference.shar.estori.es/</b>go/517afa</a>
+    </li>
+    <li>
+        <a href="southeasternconferencestories://open/517afa00-a905-15ca-c205-3a168a701d30/6a96dc0b-51ea-06b7-ae57-3a169b94fdbe"><b>southeasternconferencestories://</b>open/517</a>
+    </li>
+    <li><a href="wmt-sec://settings"><b>wmt-sec://</b>settings</a></li>
+</ul>
 </body>
 </html>
